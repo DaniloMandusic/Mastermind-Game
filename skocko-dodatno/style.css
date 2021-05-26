@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?r8hwya');
+  src:  url('icomoon.eot?r8hwya#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?r8hwya') format('truetype'),
+    url('icomoon.woff?r8hwya') format('woff'),
+    url('icomoon.svg?r8hwya#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spades:before {
+  content: "\e917";
+}
+.icon-clubs:before {
+  content: "\e918";
+}
+.icon-diamonds:before {
+  content: "\e919";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-stop2:before {
+  content: "\ea1e";
+}
+.icon-radio-checked2:before {
+  content: "\ea55";
+}
+.icon-radio-unchecked:before {
+  content: "\ea56";
+}
+.icon-reddit:before {
+  content: "\eac6";
+}
+
+.icon-size {
+  font-size: 2em;
+  padding: 0.25em;
+  cursor: pointer;
+  line-height: 2;
+  vertical-align: middle;
+}
+
+.fnc-player1-board .row, .fnc-player2-board .row {
+  height: 4em;
+}
+
+.fnc-player1-board .draw:nth-of-type(odd), .fnc-player2-board .draw:nth-of-type(odd) {
+    background: #e0e0e0;
+}
+
+.fnc-player1-board .draw:nth-of-type(even), .fnc-player2-board .draw:nth-of-type(even) {
+    background: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
