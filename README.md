@@ -8,6 +8,3 @@ Web application that simulates Mastermind game of two players made for Web Desig
 <img src = "postavka.png" width = "700">
 
 <img src = "uputstvo.png" width = "700">
-
-### Enjoy,
-### Danilo Mandusic
